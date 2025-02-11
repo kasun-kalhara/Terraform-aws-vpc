@@ -54,4 +54,3 @@ resource "aws_route_table_association" "assosiate_subnet_2" {
   subnet_id = aws_subnet.Public_subnet_2.id
 }
 
-
