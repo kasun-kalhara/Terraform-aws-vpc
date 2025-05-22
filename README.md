@@ -1,20 +1,15 @@
-Terraform AWS VPC Module
+🚀 Terraform AWS VPC Module
 
 This project automates the provisioning of an AWS Virtual Private Cloud (VPC) using Terraform. It includes the creation of subnets, route tables, Internet Gateway, NAT Gateway, and all required networking components to build a highly available and secure infrastructure on AWS.
 
 🚀 Features
 
-Create a custom VPC with CIDR block
-
-Public and private subnets across multiple Availability Zones
-
-Internet Gateway for public subnet access
-
-NAT Gateway for private subnet outbound access
-
-Route tables and route associations
-
-Modular and reusable Terraform code
+    *Create a custom VPC with CIDR block
+    *Public and private subnets across multiple Availability Zones
+    *Internet Gateway for public subnet access
+    *NAT Gateway for private subnet outbound access
+    *Route tables and route associations
+    *Modular and reusable Terraform code
 
 📁 Module Structure
 
@@ -44,24 +39,20 @@ module "vpc" {
 
 ✅ Prerequisites
 
-Terraform installed
-
-AWS CLI configured with appropriate credentials
+     *Terraform installed
+     *AWS CLI configured with appropriate credentials
 
 🚀 Getting Started
 
-git clone https://github.com/kasun-kalhara/Terraform-aws-vpc.git
-cd Terraform-aws-vpc
-terraform init
-terraform plan
-terraform apply
+     *git clone https://github.com/kasun-kalhara/Terraform-aws-vpc.git
+     *cd Terraform-aws-vpc
+     *terraform init
+     *terraform plan
+     *terraform apply
 
 📦 Outputs
 
-VPC ID
-
-Subnet IDs (public and private)
-
-NAT Gateway ID
-
-Route Table IDs
+     *VPC ID
+     *Subnet IDs (public and private)
+     *NAT Gateway ID
+     *Route Table IDs
